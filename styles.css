@@ -1,0 +1,279 @@
+body{
+  padding:0;
+  margin:0;
+  background-color: peru; 
+}
+
+#branding h1 span
+{
+   font-weight: 400;
+}
+
+/* Global */
+.container{
+  /*width:80%;*/
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+/* HEADER */
+header
+{
+  /*background:#35424a;*/
+  background-color:#e8491d;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:black 3px solid;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+ }
+.inner_header
+{ 
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin-left: 100px;
+    background-color: yellowgreen;
+}
+ header a
+ {
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+  font-family: cursive;
+}
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+header #branding
+{
+  float:left;
+}
+header #branding h1
+{
+  margin:0;
+  color:black;
+   vertical-align: middle;
+   display: table-cell;
+   font-family: cursive;
+   padding-left: 10px;
+   font-size: 36;
+   font-weight: 800;
+}
+header nav
+{
+  float:right;
+  margin-top:10px;
+}
+
+/* changes colour in particular text*/
+header .current a
+{
+    color: gold;
+}
+header .highlight 
+{ /*change colour in particular text*/
+  color:crimson;
+  font-weight:bold;
+}
+header a:hover
+{
+    color:coral;
+    font-weight:bold;
+}
+
+.container li ul
+{
+    position: absolute;
+    display: none;
+    
+}
+ .container ul li:hover ul 
+ {
+     display: block;
+ }
+
+ 
+section .colour
+{
+    color:crimson;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+/* HOME */
+#showcase{
+  min-height:400px;
+  background:url("image1.jpg");
+  background-size: cover;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+}
+
+#images{  /*bread*/
+    min-height:300px;
+    font-family: cursive;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#pictures{ /*pastry*/
+    min-height:400px;
+    font-family: cursive;
+    margin-top: 10px;
+    margin-left: 200px;
+    
+}
+#photos{  /*gallery*/
+    min-height:520px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#teampics
+{
+    min-height:650px;
+    font-family: cursive;
+    margin-top: 10px;
+    margin-left: 200px;
+    
+}
+.desc {
+  background-color:white;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+ 
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+
+/*GALLERY*/
+.sliderbox img{
+    float: left;
+}
+
+.sliderbox
+{
+    position: relative;
+    width: 3200px;
+    animation-name: slideranimation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+@keyframes slideranimation
+{
+    0%{
+        left: 0px;
+    }
+    20%
+    {
+        left: 0px;
+    }
+    25%
+    {
+        left: -800px;
+    }
+    45%
+    {
+        left: -800px;
+    }
+    50%
+    {
+        left: -1600px;
+    }
+    70%
+    {
+        left: -1600px;
+    }
+    75%
+    {
+        left: -2400px;
+    }
+
+}
+
+
+/*ABOUT US*/
+.intro
+{
+    font-family: cursive;
+    float:center;
+    /*padding:100px 100px 100px 100px;*/
+    padding-left: 50px;
+    border:3px solid brown;
+    border-radius: 30px;
+    color:black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p span{
+    font-size: 48px;
+}
+
+.pic{
+ 
+  height: 100px;
+  width: 200px;
+
+}
+
+.intro:hover
+{
+    background-color: white;
+}
+
+/*BREAD*/
+div.gallery {
+    margin: 5px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 2px solid crimson;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .team
+  {
+      text-align: center;
+      font-family: cursive;
+  }
+
+footer
+  {
+   padding:20px;
+   margin-top:20px;
+   color:#ffffff;
+   background-color:#e8491d;
+   text-align: center;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+ }
+
+ 
